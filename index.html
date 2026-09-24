@@ -93,6 +93,61 @@
             padding: 20px;
         }
 
+        /* Banner Saweria VIP & MOD */
+        .saweria-card {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            border-radius: var(--radius-lg);
+            padding: 20px;
+            color: #000;
+            box-shadow: 0 10px 25px rgba(250, 112, 154, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border: 2px solid #ffffff;
+            transition: transform 0.2s ease;
+        }
+
+        .saweria-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .saweria-title {
+            font-size: 1.2rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #1a1a1a;
+        }
+
+        .saweria-desc {
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin: 6px 0 14px 0;
+            color: #333333;
+        }
+
+        .btn-saweria {
+            background: #111827;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 800;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: background 0.2s;
+        }
+
+        .btn-saweria:hover {
+            background: #1f2937;
+        }
+
         /* Kategori Title */
         .section-header {
             display: flex;
@@ -418,6 +473,16 @@
     </header>
 
     <div class="container">
+        
+        <!-- Banner Saweria VIP & MOD (Atas Gamepass) -->
+        <div class="saweria-card">
+            <div class="saweria-title">👑 VIP & MOD SERVICE</div>
+            <div class="saweria-desc">Pemesanan Khusus VIP dan MOD Langsung Klik Tombol Dibawah Ini!</div>
+            <a href="https://saweria.co/reyyner" target="_blank" class="btn-saweria">
+                ⚡ KLIK UNTUK AKSES SAWERIA
+            </a>
+        </div>
+
         <!-- Section Gamepass -->
         <div class="section-header">
             <h2>🎮 GAMEPASS</h2>
